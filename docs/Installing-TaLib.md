@@ -8,9 +8,9 @@
     make
     sudo make install
     ```
+* Ta-Lib python bindings https://github.com/huanghyw/ta-lib
 * Point the python bindings to the library installation directory:
     ```bash
     export TA_LIBRARY_PATH=/opt/ta-lib/lib
     export TA_INCLUDE_PATH=/opt/ta-lib/include
-    pip install ta-lib # or clone, cd, and `python setup.py install`
     ```
